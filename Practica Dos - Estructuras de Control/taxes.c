@@ -7,6 +7,8 @@
 /**IMPUESTOS:
  *
  * Ayudar al usuario a determinar cuánto debe pagar de impuestos dependiendo de su salario.
+ * Si el usuario gana mas de $30,000 va a pagar un impuersto de el 16%
+ * Sino, va a pagar un impuesto del 8%
  */
 
 int main()
