@@ -15,9 +15,9 @@ int main()
 
     int salario;
     salario=0;
-    printf("Por favor, entra tu salario aquí");
+    printf("Por favor, entra tu salario aqu%c", 161);
     scanf("%i", &salario);
-    printf("tu salario es: %i", salario);
+    printf("\ntu salario es: %i\n\n", salario);
     system("pause");
     return 0;
 }
