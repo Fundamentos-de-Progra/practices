@@ -17,9 +17,19 @@ int main()
 
     int salario;
     salario=0;
+    float impuesto=0;
     printf("Por favor, entra tu salario aqu%c", 161);
     scanf("%i", &salario);
-    printf("\ntu salario es: %i\n\n", salario);
+    if (salario <30000) 
+    {
+        impuesto= salario *.16;
+    }
+    else
+    {
+        impuesto= salario *.08;
+    }
+
+
     system("pause");
     return 0;
 }
