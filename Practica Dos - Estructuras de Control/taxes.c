@@ -28,7 +28,7 @@ int main()
     {
         impuesto= salario *.08;
     }
-
+    printf("El usuario pagará un impuesto de: %f",impuesto);
 
     system("pause");
     return 0;
