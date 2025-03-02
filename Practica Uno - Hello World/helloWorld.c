@@ -4,10 +4,10 @@
 
 // Variable y funciones
 //Este tiene coppia de numeroChido
-/**void notOverridenNumber(int numero) {
+void notOverridenNumber(int numero) {
     numero = 10;
     printf("El numero es: %i\n", numero);
-}**/
+}
 
 //Aqui usamos numero chido pero con un apodo "numero"
 /**void overrideNumber(int *numero) {
