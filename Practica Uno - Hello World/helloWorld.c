@@ -10,10 +10,10 @@ void notOverridenNumber(int numero) {
 }
 
 //Aqui usamos numero chido pero con un apodo "numero"
-/**void overrideNumber(int *numero) {
+void overrideNumber(int *numero) {
     *numero = 10;
     printf("El numero es: %i\n", *numero);
-}**/
+}
 
 /**int main() {
     int numeroChido = 5;
